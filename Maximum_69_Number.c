@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,d,a[n],i,j;
+    int n,d,a[100],i,j;
     scanf("%d",&n);
     i=0;
     while(n!=0)
@@ -13,13 +13,13 @@ int main()
     }
     for(j=i-1;j>=0;j--)
     {
-                {
+        
             if(a[j]==6)
             {
                 a[j]=9;
                 break;
             }
-        }
+        
     }
     for(j=i-1;j>=0;j--)
     {
